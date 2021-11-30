@@ -109,6 +109,18 @@ a {
   color: var(--purple);
 }
 
+@media screen and (max-width:640px) {
+  .card-flex {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+}
+
 /* End Services  */
 /* About  */
 .about {
@@ -137,6 +149,13 @@ a {
 
 .about-text {
   color: white;
+}
+
+/* Media Queries  */
+@media screen and (max-width: 640px) {
+  .about-img {
+    display: none;
+  }
 }
 
 /* About End  */
