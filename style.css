@@ -1,5 +1,5 @@
 :root {
-  --black: #212529;
+  --black: #030201;
   --purple: #615CFD;
 
 }
@@ -18,6 +18,7 @@ html {
 
 body p {
   font-size: 16px;
+  color: var(--black);
 }
 
 h4 {
@@ -26,6 +27,24 @@ h4 {
 
 h2 {
   font-size: 40px;
+  color: var(--purple);
+}
+
+a {
+  color: white;
+}
+
+.btn {
+  border: solid 1px var(--purple);
+  background: var(--purple);
+  border-radius: 20px;
+}
+
+.btn:hover {
+  color: var(--purple);
+  border: solid 1px var(--purple);
+  background: none;
+  border-radius: 20px;
 }
 
 /* Header  */
@@ -35,7 +54,7 @@ h2 {
   height: 115vh;
   background-size: cover;
   color: white;
-  margin-bottom: 155px;
+  margin-bottom: 200px;
 }
 
 .nav-link {
@@ -44,16 +63,6 @@ h2 {
 
 .nav-text {
   color: white;
-  border: solid 1px var(--purple);
-  background: var(--purple);
-  border-radius: 20px;
-}
-
-.nav-text:hover {
-  color: var(--purple);
-  border: solid 1px var(--purple);
-  background: none;
-  border-radius: 20px;
 }
 
 .logo {
@@ -66,7 +75,7 @@ h2 {
 /* End Header  */
 /* Services */
 .services {
-  margin-bottom: 155px;
+  margin-bottom: 200px;
 }
 
 .fas {
@@ -90,4 +99,38 @@ h2 {
   margin-top: 20px;
 }
 
+.service-title {
+  color: var(--purple);
+}
+
 /* End Services  */
+/* About  */
+.about {
+  margin-bottom: 200px;
+}
+
+.about-flex {
+  display: flex;
+}
+
+.about-img {
+  float: left;
+  max-width: 616px;
+  height: auto;
+}
+
+.about-right {
+  background: var(--black);
+  color: white;
+
+}
+
+.about-btn {
+  color: white;
+}
+
+.about-text {
+  color: white;
+}
+
+/* About End  */
