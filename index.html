@@ -24,11 +24,10 @@
   <header class="py-3 header" id="header">
     <nav class="nav-bar" id="nav-bar">
       <ul class="nav d-flex justify-content-center ">
-        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#video" class="nav-link">How We Work</a></li>
+        <li class="nav-item"><a href="#form" class="nav-link">Subscribe</a></li>
       </ul>
     </nav>
     <div class="logo text-center">
@@ -39,7 +38,7 @@
   </header>
   <!-- End Header  -->
   <!-- Services  -->
-  <div class="container services ">
+  <div class="container services" id="services">
     <h2 class="service-title text-center mb-5">Services</h2>
     <p class="service-text"></p>
     <div class="card-flex">
@@ -71,7 +70,7 @@
   </div>
   <!-- End Services  -->
   <!-- About Us  -->
-  <div class="about">
+  <div class="about" id="about">
     <div class="about-flex">
       <div class="about-left">
         <img src="img/producing.jpeg" alt="person-sitting-at-desk" class="about-img">
@@ -86,7 +85,7 @@
   </div>
   <!-- End About Us  -->
   <!-- Video -->
-  <div class="container video text-center">
+  <div class="container video text-center" id="video">
     <div class="video-flex">
       <div class="video-text">
         <h2 class="text-center mb-5">How We Work</h2>
@@ -102,13 +101,13 @@
   </div>
   <!-- End Video -->
   <!-- Form  -->
-  <div class="container form text-center">
-    <h2 class="form-title">Subscribe</h2>
-    <p>Subscribe to our newsletter</p>
+  <div class="container form" id="form">
+    <h2 class="form-title mb-5 text-center">Subscribe</h2>
+    <p class="mb-3">Subscribe to our newsletter</p>
     <form action="https://www.freecodecamp.com/email-submit">
-      <label for="email"> Your Email Address </label>
-      <input type="email" id="email" class="email" name="email"><br>
-      <button class="btn submit" id="submit">Submit</button>
+      <input type="text" id="name" class="name form-control mb-5 form-input" name="name" placeholder="Name">
+      <input type="email" id="email" class="email form-control form-input" name="email" placeholder="Email"><br>
+      <button class="btn  btn-lg submit mt-3" id="submit">Submit</button>
     </form>
   </div>
   <!-- End Form  -->
@@ -133,7 +132,8 @@
       </div>
     </div>
     <hr>
-    <small> &copy;2021 All rights reserved | Created by <a href="https://github.com/Wakarende">Joy Kirii</a></small>
+    <small> &copy;2021 All rights reserved | Created by <a href="https://github.com/Wakarende" class="author">Joy
+        Kirii</a></small>
   </footer>
   <!-- End Footer  -->
 </body>

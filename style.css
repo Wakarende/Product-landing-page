@@ -151,6 +151,14 @@ a {
   margin-bottom: 200px;
 }
 
+.form-input {
+  border-radius: 30px;
+}
+
+.submit {
+  color: white;
+}
+
 /* Subscribe End  */
 /* Footer  */
 .footer {
@@ -160,6 +168,10 @@ a {
   padding-left: 160px;
   padding-right: 160px;
   padding-bottom: 20px;
+}
+
+.nav-link:hover {
+  color: var(--purple);
 }
 
 .social-link {
@@ -186,6 +198,10 @@ a {
 .footer-flex {
   display: flex;
   justify-content: space-between;
+}
+
+.author:hover {
+  color: var(--purple);
 }
 
 /* End Footer  */
