@@ -183,6 +183,9 @@ a {
   border: solid 1px var(--purple);
 }
 
-
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* End Footer  */
