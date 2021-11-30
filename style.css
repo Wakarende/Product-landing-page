@@ -59,6 +59,10 @@ a {
   margin-bottom: 200px;
 }
 
+.fixed-top.scrolled {
+  background-color: var(--black);
+}
+
 .nav-link {
   color: white;
 }

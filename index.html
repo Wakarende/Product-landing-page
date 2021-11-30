@@ -22,7 +22,7 @@
 <body>
   <!-- Header  -->
   <header class="py-3 header" id="header">
-    <nav class="nav-bar" id="nav-bar">
+    <nav class="nav-bar navbar-nav-scroll fixed-top" id="nav-bar">
       <ul class="nav d-flex justify-content-center ">
         <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
         <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
@@ -91,7 +91,7 @@
   </div>
   <!-- End About Us  -->
   <!-- Video -->
-  <div class="container video text-center" id="video">
+  <div class="container video text-center">
     <div class="video-flex">
       <div class="video-text">
         <h2 class="text-center mb-5">How We Work</h2>
@@ -107,10 +107,10 @@
   </div>
   <!-- End Video -->
   <!-- Form  -->
-  <div class="container form" id="form">
+  <div class="container form">
     <h2 class="form-title mb-5 text-center">Subscribe</h2>
     <p class="mb-3">Subscribe to our newsletter</p>
-    <form action="https://www.freecodecamp.com/email-submit">
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
       <input type="text" id="name" class="name form-control mb-5 form-input" name="name" placeholder="Name">
       <input type="email" id="email" class="email form-control form-input" name="email" placeholder="Email"><br>
       <button class="btn  btn-lg submit mt-3" id="submit">Submit</button>
@@ -142,6 +142,16 @@
         Kirii</a></small>
   </footer>
   <!-- End Footer  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(window).scroll(function () {
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 50)
+    });
+  </script>
 </body>
 
 </html>
