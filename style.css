@@ -89,6 +89,10 @@ a {
   border: solid 1px Light #d3d3d3;
 }
 
+.card:hover {
+  border: solid 1px var(--purple);
+}
+
 .card-flex {
   display: flex;
   justify-content: space-evenly;
@@ -148,3 +152,37 @@ a {
 }
 
 /* Subscribe End  */
+/* Footer  */
+.footer {
+  background: var(--black);
+  color: white;
+  padding-top: 100px;
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-bottom: 20px;
+}
+
+.social-link {
+  list-style: none;
+  display: flex;
+  column-gap: 10px;
+}
+
+.bi {
+  border: solid white 1px;
+  border-radius: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  float: right;
+}
+
+.bi:hover {
+  background-color: var(--purple);
+  border: solid 1px var(--purple);
+}
+
+
+
+/* End Footer  */
