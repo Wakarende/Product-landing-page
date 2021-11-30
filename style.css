@@ -4,7 +4,8 @@
 
 }
 
-html {
+html,
+body {
   font-family: 'Bai Jamjuree',
     sans-serif;
   font-family: 'Comfortaa',
@@ -14,6 +15,7 @@ html {
   font-family: 'Roboto',
     sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body p {
@@ -165,8 +167,8 @@ a {
   background: var(--black);
   color: white;
   padding-top: 100px;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-bottom: 20px;
 }
 
@@ -202,6 +204,17 @@ a {
 
 .author:hover {
   color: var(--purple);
+}
+
+/* Media Queries  */
+@media screen and (max-width: 640px) {
+  .footer-flex {
+    display: block;
+  }
+
+  .social-link {
+    margin-top: 30px;
+  }
 }
 
 /* End Footer  */
